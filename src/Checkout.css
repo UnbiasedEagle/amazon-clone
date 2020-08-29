@@ -1,0 +1,26 @@
+.checkout {
+	display: flex;
+	background: #fff;
+	padding: 1rem;
+}
+
+.checkout__ad {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.checkout__empty h2 {
+	margin-bottom: 8px;
+	font-size: 1.6rem;
+}
+
+.checkout__content {
+	padding: 0rem 1.2rem;
+}
+
+.checkout__title {
+	margin-bottom: 1rem;
+	padding-bottom: 8px;
+	font-size: 1.6rem;
+	border-bottom: 1px solid lightgray;
+}
