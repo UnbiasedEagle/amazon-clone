@@ -4,6 +4,7 @@ import AmazonContext from './context/amazonContext';
 import CheckoutItem from './CheckoutItem';
 import './Checkout.css';
 import Subtotal from './Subtotal';
+import Footer from './Footer';
 
 const Checkout = () => {
 	const amazonContext = useContext(AmazonContext);
@@ -44,6 +45,7 @@ const Checkout = () => {
 					</div>
 				)}
 			</div>
+			<Footer position={true} />
 		</Fragment>
 	);
 };
