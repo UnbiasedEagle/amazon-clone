@@ -64,7 +64,7 @@ const Login = (props) => {
 					</button>
 				</div>
 			</div>
-			<Footer />
+			<Footer position={true} />
 		</React.Fragment>
 	);
 };
